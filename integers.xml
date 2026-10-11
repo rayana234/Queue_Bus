@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="initial_booked_seats">5</integer>
+    <integer name="total_seats">40</integer>
+    <integer name="splash_delay_ms">3000</integer>
+</resources>
+

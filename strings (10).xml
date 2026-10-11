@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">حجز باص الجامعة</string>
+    <string name="logo_desc">شعار التطبيق</string>
+
+    <string name="back">رجوع</string>
+    <string name="settings">الإعدادات</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="logout">تسجيل الخروج</string>
+
+    <string name="welcome_back">مرحبًا بعودتك</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="create_account">إنشاء حساب</string>
+    <string name="create_account_title">إنشاء حساب</string>
+    <string name="student_id">رقم الطالب</string>
+    <string name="student_or_driver_id">رقم الطالب / رقم السائق</string>
+    <string name="password">كلمة المرور</string>
+    <string name="full_name">الاسم الكامل</string>
+    <string name="account_type">نوع الحساب</string>
+    <string name="student">طالب</string>
+    <string name="driver">سائق</string>
+
+    <string name="please_enter_id_password">الرجاء إدخال الرقم وكلمة المرور</string>
+    <string name="please_fill_all_fields">الرجاء تعبئة جميع الحقول</string>
+    <string name="student_selected">تم اختيار حساب طالب</string>
+    <string name="driver_selected">تم اختيار حساب سائق</string>
+    <string name="id_already_exists">هذا الرقم موجود مسبقًا</string>
+    <string name="account_created_successfully">تم إنشاء الحساب بنجاح</string>
+    <string name="account_create_failed">فشل إنشاء الحساب</string>
+    <string name="invalid_login">الرقم أو كلمة المرور غير صحيحة</string>
+
+    <string name="destination">الوجهة</string>
+    <string name="university_to_parking">الجامعة ← الموقف</string>
+    <string name="parking_to_university">الموقف ← الجامعة</string>
+    <string name="live_occupancy">الإشغال الحالي</string>
+    <string name="book_a_seat">حجز مقعد</string>
+    <string name="confirm_booking_btn">تأكيد الحجز</string>
+    <string name="cancel_booking">إلغاء الحجز</string>
+
+    <string name="select_destination_first">الرجاء اختيار الوجهة أولًا</string>
+    <string name="already_have_booking">لديك حجز مسبقًا</string>
+    <string name="bus_is_full">عذرًا، الباص ممتلئ</string>
+    <string name="no_booked_seats">لا يوجد مقاعد محجوزة لإزالتها</string>
+    <string name="booking_cancelled">تم إلغاء الحجز</string>
+    <string name="occupancy_format">%1$d/%2$d</string>
+    <string name="occupancy_format_preview">15/50</string>
+    <string name="booking_details_message">تم تأكيد الحجز بنجاح.\nرقم المقعد: %1$d\nالوجهة: %2$s\nالحالة: بانتظار انطلاق الباص.\n\nسيتم إشعارك عندما يكون الباص جاهزًا.</string>
+
+    <string name="confirm_booking_dialog_title">تأكيد الحجز</string>
+    <string name="confirm_booking_dialog_message">هل تريد حجز مقعد لهذه الوجهة؟\n%1$s</string>
+    <string name="yes_confirm">نعم، تأكيد</string>
+    <string name="cancel">إلغاء</string>
+
+    <string name="students_list">قائمة الطلاب</string>
+    <string name="send_notifications">إرسال إشعارات</string>
+    <string name="arrival">الوصول</string>
+    <string name="departure">الانطلاق</string>
+    <string name="msg_arrived">تم الوصول إلى نقطة التجمع</string>
+    <string name="msg_departed">بدأت الرحلة</string>
+    <string name="student_format">%1$s (%2$s)</string>
+
+    <string name="student_1_name">علي أحمد</string>
+    <string name="student_1_id">12345</string>
+    <string name="student_2_name">سارة خالد</string>
+    <string name="student_2_id">67890</string>
+    <string name="student_3_name">ريان عوض</string>
+    <string name="student_3_id">20231234</string>
+
+    <string name="today_updates">تحديثات اليوم</string>
+    <string name="notifications_summary">لديك 4 إشعارات حول رحلتك اليوم.</string>
+    <string name="all_notifications_read">تمت قراءة جميع الإشعارات.</string>
+    <string name="all_notifications_read_toast">تم تحديد جميع الإشعارات كمقروءة</string>
+    <string name="mark_all_as_read">تحديد الكل كمقروء</string>
+
+    <string name="booking_confirmed_title">تم تأكيد الحجز</string>
+    <string name="booking_confirmed_body">تم حجز مقعدك بنجاح. رقم المقعد: 16.</string>
+    <string name="booking_notification_time">اليوم - 7:35 صباحًا</string>
+
+    <string name="bus_arriving_title">الباص سيصل قريبًا</string>
+    <string name="bus_arriving_body">سيصل الباص إلى نقطة التجمع خلال 10 دقائق.</string>
+    <string name="bus_arriving_time">اليوم - 7:50 صباحًا</string>
+
+    <string name="departure_reminder_title">تذكير بموعد الانطلاق</string>
+    <string name="departure_reminder_body">رحلتك مجدولة للانطلاق الساعة 8:00 صباحًا.</string>
+    <string name="departure_reminder_time">اليوم - 7:55 صباحًا</string>
+
+    <string name="new_trips_title">رحلات جديدة متاحة</string>
+    <string name="new_trips_body">تمت إضافة رحلات إضافية للطلاب اليوم.</string>
+    <string name="new_trips_time">اليوم - 6:30 صباحًا</string>
+
+    <string name="personal_information">المعلومات الشخصية</string>
+    <string name="account_activity">نشاط الحساب</string>
+    <string name="trips">الرحلات</string>
+    <string name="status">الحالة</string>
+    <string name="current_booking">الحجز الحالي</string>
+    <string name="current_work_shift">الوردية الحالية</string>
+    <string name="back_to_dashboard">العودة إلى الصفحة الرئيسية</string>
+
+    <string name="student_account">حساب طالب</string>
+    <string name="driver_account">حساب سائق</string>
+
+    <string name="student_name_value">ريان عوض</string>
+    <string name="student_id_value">رقم الطالب: 20231234</string>
+    <string name="student_department_value">القسم: علم الحاسوب</string>
+    <string name="student_phone_value">الهاتف: 0599000000</string>
+    <string name="student_email_value">البريد الإلكتروني: student@university.edu</string>
+    <string name="student_trips_count">12</string>
+    <string name="student_status_value">نشط</string>
+    <string name="student_booking_info">المسار: الجامعة ← الموقف\nرقم المقعد: 16\nوقت الانطلاق: 8:00 صباحًا\nالحالة: بانتظار انطلاق الباص.</string>
+
+    <string name="driver_name_value">أحمد السائق</string>
+    <string name="driver_id_value">رقم السائق: D-1001</string>
+    <string name="driver_bus_value">الباص المخصص: باص 12</string>
+    <string name="driver_phone_value">الهاتف: 0599112233</string>
+    <string name="driver_email_value">البريد الإلكتروني: driver@university.edu</string>
+    <string name="driver_trips_count">28</string>
+    <string name="driver_status_value">على رأس العمل</string>
+    <string name="driver_shift_info">المسار: الجامعة ← الموقف\nوقت الانطلاق: 8:00 صباحًا\nالإشغال الحالي: 15/50\nالحالة: بانتظار الطلاب.</string>
+
+    <string name="settings_title">الإعدادات</string>
+    <string name="profile_settings">إعدادات الملف الشخصي</string>
+    <string name="general_settings">عام</string>
+    <string name="location_services">خدمات الموقع</string>
+    <string name="dark_mode">الوضع الليلي</string>
+    <string name="language">اللغة</string>
+    <string name="english">الإنجليزية</string>
+    <string name="arabic">العربية</string>
+    <string name="safety_privacy">الأمان والخصوصية</string>
+    <string name="info_support">المعلومات والدعم</string>
+    <string name="account">الحساب</string>
+
+    <string name="msg_notif_enabled">تم تفعيل الإشعارات</string>
+    <string name="msg_notif_disabled">تم إيقاف الإشعارات</string>
+    <string name="msg_loc_enabled">تم تفعيل الموقع</string>
+    <string name="msg_loc_disabled">تم إيقاف الموقع</string>
+    <string name="msg_dark_enabled">تم تفعيل الوضع الليلي</string>
+    <string name="msg_dark_disabled">تم إيقاف الوضع الليلي</string>
+    <string name="msg_lang_english">تم تغيير اللغة إلى الإنجليزية</string>
+    <string name="msg_lang_arabic">تم تغيير اللغة إلى العربية</string>
+    <string name="msg_open_profile">فتح إعدادات الملف الشخصي</string>
+    <string name="msg_logged_out">تم تسجيل الخروج</string>
+
+    <string name="logout_dialog_title">تسجيل الخروج</string>
+    <string name="logout_dialog_message">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
+
+    <string name="desc_settings">الإعدادات</string>
+    <string name="desc_profile">الملف الشخصي</string>
+    <string name="desc_notifications">الإشعارات</string>
+    <string name="desc_profile_icon">أيقونة الملف الشخصي</string>
+    <string name="desc_add_seat">إضافة مقعد</string>
+    <string name="desc_remove_seat">إزالة مقعد</string>
+
+    <string name="check_icon">✓</string>
+    <string name="warning_icon">!</string>
+    <string name="timer_icon">⏱</string>
+    <string name="info_icon">i</string>
+
+
+    <string name="profile_id_format">الرقم: %1$s</string>
+
+</resources>

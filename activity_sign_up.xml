@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="@dimen/padding_screen_large">
+
+        <TextView
+            android:id="@+id/txtCreateTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_account_title"
+            android:textColor="@color/primary_text_blue"
+            android:textSize="@dimen/text_size_header"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/margin_extra_large" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/input_height"
+            android:hint="@string/full_name"
+            android:inputType="textPersonName"
+            android:padding="@dimen/padding_input"
+            android:layout_marginBottom="@dimen/margin_medium" />
+
+        <EditText
+            android:id="@+id/etStudentId"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/input_height"
+            android:hint="@string/student_or_driver_id"
+            android:inputType="text"
+            android:padding="@dimen/padding_input"
+            android:layout_marginBottom="@dimen/margin_medium" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/input_height"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="@dimen/padding_input"
+            android:layout_marginBottom="@dimen/margin_large" />
+
+        <TextView
+            android:id="@+id/txtAccountType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/account_type"
+            android:textColor="@color/primary_text_blue"
+            android:textSize="@dimen/text_size_message"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <Button
+            android:id="@+id/btnStudent"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/student"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_button"
+            android:backgroundTint="@color/muted_blue_gray"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <Button
+            android:id="@+id/btnDriver"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/driver"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_button"
+            android:backgroundTint="@color/muted_blue_gray"
+            android:layout_marginBottom="@dimen/margin_large" />
+
+        <Button
+            android:id="@+id/btnCreate"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/create_account"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_button"
+            android:backgroundTint="@color/primary_blue" />
+
+    </LinearLayout>
+
+</ScrollView>

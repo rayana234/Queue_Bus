@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_screen_large">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height_small"
+            android:text="@string/back"
+            android:textSize="@dimen/text_size_body" />
+
+        <TextView
+            android:id="@+id/txtSettingsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_title"
+            android:textColor="@color/primary_text_blue"
+            android:textSize="@dimen/text_size_header"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/margin_large"
+            android:layout_marginBottom="@dimen/margin_large" />
+
+        <TextView
+            android:id="@+id/txtOpenProfile"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_row_height"
+            android:text="@string/profile_settings"
+            android:textColor="@color/primary_text_blue"
+            android:textSize="@dimen/text_size_message"
+            android:gravity="center_vertical" />
+
+        <Switch
+            android:id="@+id/switchNotifications"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_row_height"
+            android:text="@string/notifications"
+            android:textColor="@color/primary_text_blue"
+            android:textSize="@dimen/text_size_message" />
+
+        <Switch
+            android:id="@+id/switchLocation"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_row_height"
+            android:text="@string/location_services"
+            android:textColor="@color/primary_text_blue"
+            android:textSize="@dimen/text_size_message" />
+
+        <Switch
+            android:id="@+id/switchDarkMode"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_row_height"
+            android:text="@string/dark_mode"
+            android:textColor="@color/primary_text_blue"
+            android:textSize="@dimen/text_size_message" />
+
+        <TextView
+            android:id="@+id/txtLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/language"
+            android:textColor="@color/primary_text_blue"
+            android:textSize="@dimen/text_size_message"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/margin_large"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <Button
+            android:id="@+id/btnEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/english"
+            android:textSize="@dimen/text_size_button"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <Button
+            android:id="@+id/btnArabic"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/arabic"
+            android:textSize="@dimen/text_size_button"
+            android:layout_marginBottom="@dimen/margin_large" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/logout"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_button"
+            android:backgroundTint="@color/red_logout" />
+
+    </LinearLayout>
+
+</ScrollView>

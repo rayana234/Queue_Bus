@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_screen_large">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_bar_height"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/btnSettings"
+                android:layout_width="@dimen/icon_size_top"
+                android:layout_height="@dimen/icon_size_top"
+                android:contentDescription="@string/desc_settings"
+                android:src="@drawable/ic_settings" />
+
+            <TextView
+                android:id="@+id/txtDriverTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/driver"
+                android:textColor="@color/primary_text_blue"
+                android:textSize="@dimen/text_size_header"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <ImageView
+                android:id="@+id/btnProfile"
+                android:layout_width="@dimen/icon_size_top"
+                android:layout_height="@dimen/icon_size_top"
+                android:contentDescription="@string/desc_profile"
+                android:src="@drawable/ic_profile" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtLiveOccupancy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/live_occupancy"
+            android:textColor="@color/primary_text_blue"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin_large"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <TextView
+            android:id="@+id/txtOccupancy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/occupancy_format_preview"
+            android:textColor="@color/status_green"
+            android:textSize="@dimen/text_size_occupancy"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/margin_large" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/margin_large">
+
+            <ImageView
+                android:id="@+id/btnRemoveSeat"
+                android:layout_width="@dimen/icon_size_profile"
+                android:layout_height="@dimen/icon_size_profile"
+                android:contentDescription="@string/desc_remove_seat"
+                android:src="@drawable/ic_remove" />
+
+            <ImageView
+                android:id="@+id/btnAddSeat"
+                android:layout_width="@dimen/icon_size_profile"
+                android:layout_height="@dimen/icon_size_profile"
+                android:layout_marginStart="@dimen/margin_large"
+                android:contentDescription="@string/desc_add_seat"
+                android:src="@drawable/ic_add" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtStudentsList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/students_list"
+            android:textColor="@color/primary_text_blue"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <LinearLayout
+            android:id="@+id/studentsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/students_container_height"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:padding="@dimen/padding_card"
+            android:layout_marginBottom="@dimen/margin_large" />
+
+        <TextView
+            android:id="@+id/txtSendNotifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send_notifications"
+            android:textColor="@color/primary_text_blue"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <Button
+            android:id="@+id/btnArrive"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/arrival"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_button"
+            android:backgroundTint="@color/green_confirm"
+            android:layout_marginBottom="@dimen/margin_medium" />
+
+        <Button
+            android:id="@+id/btnDepart"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/departure"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_button"
+            android:backgroundTint="@color/primary_blue" />
+
+    </LinearLayout>
+
+</ScrollView>

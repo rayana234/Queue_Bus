@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_screen_large">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height_small"
+
+            android:text="@string/back"
+            android:textSize="@dimen/text_size_body" />
+
+        <TextView
+            android:id="@+id/txtNotificationsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notifications"
+            android:textColor="@color/primary_text_blue"
+            android:textSize="@dimen/text_size_header"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/margin_large"
+            android:layout_marginBottom="@dimen/margin_medium" />
+
+        <TextView
+            android:id="@+id/txtSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notifications_summary"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/text_size_body"
+            android:layout_marginBottom="@dimen/margin_large" />
+
+        <LinearLayout
+            android:id="@+id/cardBooking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:padding="@dimen/padding_card"
+            android:layout_marginBottom="@dimen/margin_medium">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/booking_confirmed_title"
+                android:textColor="@color/primary_text_blue"
+                android:textSize="@dimen/text_size_message"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/booking_confirmed_body"
+                android:textColor="@color/gray_text"
+                android:textSize="@dimen/text_size_body" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/booking_notification_time"
+                android:textColor="@color/gray_time"
+                android:textSize="@dimen/text_size_small" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cardArrival"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:padding="@dimen/padding_card"
+            android:layout_marginBottom="@dimen/margin_medium">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bus_arriving_title"
+                android:textColor="@color/primary_text_blue"
+                android:textSize="@dimen/text_size_message"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bus_arriving_body"
+                android:textColor="@color/gray_text"
+                android:textSize="@dimen/text_size_body" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bus_arriving_time"
+                android:textColor="@color/gray_time"
+                android:textSize="@dimen/text_size_small" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cardDeparture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:padding="@dimen/padding_card"
+            android:layout_marginBottom="@dimen/margin_medium">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/departure_reminder_title"
+                android:textColor="@color/primary_text_blue"
+                android:textSize="@dimen/text_size_message"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/departure_reminder_body"
+                android:textColor="@color/gray_text"
+                android:textSize="@dimen/text_size_body" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/departure_reminder_time"
+                android:textColor="@color/gray_time"
+                android:textSize="@dimen/text_size_small" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cardGeneral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:padding="@dimen/padding_card"
+            android:layout_marginBottom="@dimen/margin_large">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_trips_title"
+                android:textColor="@color/primary_text_blue"
+                android:textSize="@dimen/text_size_message"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_trips_body"
+                android:textColor="@color/gray_text"
+                android:textSize="@dimen/text_size_body" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_trips_time"
+                android:textColor="@color/gray_time"
+                android:textSize="@dimen/text_size_small" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnClearNotifications"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/mark_all_as_read"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_button"
+            android:backgroundTint="@color/primary_blue" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="padding_activity">20dp</dimen>
+    <dimen name="padding_screen_large">24dp</dimen>
+    <dimen name="padding_card">16dp</dimen>
+    <dimen name="padding_summary_card">18dp</dimen>
+    <dimen name="padding_input">14dp</dimen>
+    <dimen name="padding_icon">6dp</dimen>
+    <dimen name="padding_small">10dp</dimen>
+    <dimen name="padding_medium">15dp</dimen>
+
+    <dimen name="margin_tiny">5dp</dimen>
+    <dimen name="margin_xsmall">6dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_small_medium">10dp</dimen>
+    <dimen name="margin_medium">12dp</dimen>
+    <dimen name="margin_card">14dp</dimen>
+    <dimen name="margin_medium_large">16dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="margin_extra_large">24dp</dimen>
+    <dimen name="margin_top_big">30dp</dimen>
+    <dimen name="margin_top_splash">40dp</dimen>
+
+    <dimen name="input_height">55dp</dimen>
+    <dimen name="button_height">55dp</dimen>
+    <dimen name="button_height_large">70dp</dimen>
+    <dimen name="button_height_small">45dp</dimen>
+    <dimen name="top_bar_height">60dp</dimen>
+    <dimen name="profile_settings_height">70dp</dimen>
+    <dimen name="setting_row_height">55dp</dimen>
+    <dimen name="students_container_height">140dp</dimen>
+
+    <dimen name="logo_size_login">120dp</dimen>
+    <dimen name="logo_size_splash">140dp</dimen>
+    <dimen name="icon_size_small">40dp</dimen>
+    <dimen name="icon_size_top">35dp</dimen>
+    <dimen name="icon_size_profile">45dp</dimen>
+    <dimen name="notification_icon_size">45dp</dimen>
+    <dimen name="card_size">170dp</dimen>
+
+    <dimen name="text_size_small">13sp</dimen>
+    <dimen name="text_size_body">15sp</dimen>
+    <dimen name="text_size_message">16sp</dimen>
+    <dimen name="text_size_button">18sp</dimen>
+    <dimen name="text_size_title">20sp</dimen>
+    <dimen name="text_size_profile_status">22sp</dimen>
+    <dimen name="text_size_large_title">26sp</dimen>
+    <dimen name="text_size_header">28sp</dimen>
+    <dimen name="text_size_big_header">30sp</dimen>
+    <dimen name="text_size_occupancy">32sp</dimen>
+
+</resources>

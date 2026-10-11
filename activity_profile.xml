@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_screen_large">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height_small"
+            android:text="@string/back"
+            android:textSize="@dimen/text_size_body" />
+
+        <TextView
+            android:id="@+id/txtProfileTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile"
+            android:textColor="@color/primary_text_blue"
+            android:textSize="@dimen/text_size_header"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/margin_large"
+            android:layout_marginBottom="@dimen/margin_large" />
+
+        <TextView
+            android:id="@+id/txtProfileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/student_name_value"
+            android:textColor="@color/primary_text_blue"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <TextView
+            android:id="@+id/txtAccountType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/student_account"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/text_size_body"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/margin_large" />
+
+        <TextView
+            android:id="@+id/txtPersonalInfoTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/personal_information"
+            android:textColor="@color/primary_text_blue"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <TextView
+            android:id="@+id/txtUserId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/student_id_value"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/text_size_message"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <TextView
+            android:id="@+id/txtDepartment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/student_department_value"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/text_size_message"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <TextView
+            android:id="@+id/txtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/student_phone_value"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/text_size_message"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/student_email_value"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/text_size_message"
+            android:layout_marginBottom="@dimen/margin_large" />
+
+        <TextView
+            android:id="@+id/txtAccountActivityTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/account_activity"
+            android:textColor="@color/primary_text_blue"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <TextView
+            android:id="@+id/txtTripsLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/trips"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/text_size_body" />
+
+        <TextView
+            android:id="@+id/txtTripsCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/student_trips_count"
+            android:textColor="@color/primary_text_blue"
+            android:textSize="@dimen/text_size_profile_status"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/margin_medium" />
+
+        <TextView
+            android:id="@+id/txtStatusLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/status"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/text_size_body" />
+
+        <TextView
+            android:id="@+id/txtCurrentStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/student_status_value"
+            android:textColor="@color/status_green"
+            android:textSize="@dimen/text_size_profile_status"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/margin_large" />
+
+        <TextView
+            android:id="@+id/txtCurrentBookingTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/current_booking"
+            android:textColor="@color/primary_text_blue"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <TextView
+            android:id="@+id/txtBookingInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/student_booking_info"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/text_size_message"
+            android:background="@color/white"
+            android:padding="@dimen/padding_card"
+            android:layout_marginBottom="@dimen/margin_large" />
+
+        <Button
+            android:id="@+id/btnGoToMain"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/back_to_dashboard"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_button"
+            android:backgroundTint="@color/primary_blue"
+            android:layout_marginBottom="@dimen/margin_medium" />
+
+        <Button
+            android:id="@+id/btnOpenSettings"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/settings"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_button"
+            android:backgroundTint="@color/muted_blue_gray"
+            android:layout_marginBottom="@dimen/margin_medium" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/logout"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_button"
+            android:backgroundTint="@color/red_logout" />
+
+    </LinearLayout>
+
+</ScrollView>
